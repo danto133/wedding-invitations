@@ -1,0 +1,6 @@
+.pluginSkinLight>div>div {
+    background-color: red !important;
+}
+div[role="feed"] {
+    background-color: red !important;
+}

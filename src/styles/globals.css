@@ -1,0 +1,195 @@
+/**
+* import core style
+*/
+@import url("/assets/css/style.css") screen;
+@import url("/assets/css/mobile.css") handheld, only screen and (max-device-width: 640px);
+@import url("/assets/css/non-screen.css") handheld, only screen and (max-device-width: 640px);
+@import url("/assets/css/form.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Ballet&family=Dancing+Script&family=Water+Brush&family=Playball&family=Whisper&display=swap");
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+    Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.gh6 {
+  font-family: Serif;
+  text-align: center;
+  font-style: italic;
+  color: #7c334f;
+}
+.gh6 span {
+  font-family: "dancing script";
+}
+.gh2 {
+  font-family: serif;
+  color: #7c334f;
+  text-align: center;
+  font-style: italic;
+  padding-top: 10px;
+}
+.fballet {
+  font-family: ballet, serif;
+  font-size: 1.55em;
+  font-weight: bold;
+}
+.fsize-155 {
+  font-size: 1.55em;
+}
+.fwhisper {
+  font-family: Whisper, serif !important;
+  font-weight: bold;
+}
+.header-wish {
+  font-size: 1.55em;
+  border-bottom: 0.12em double #d3ccc1;
+  font-family: "dancing script", serif;
+  color: #7c334f;
+  text-align: center;
+  font-style: italic;
+  /*margin: 1.1em 0 0.38em;*/
+  line-height: 1.2;
+  padding-bottom: 10px;
+}
+.header-without-border {
+  font-size: 1.3em;
+  font-family: "dancing script", serif;
+  color: #7c334f;
+  text-align: center;
+  font-style: italic;
+  /*margin: 1.1em 0 0.38em;*/
+  line-height: 1.2;
+  padding-bottom: 10px;
+}
+span.d-block {
+  font-size: 10px;
+  /*display: block !important;*/
+}
+table,
+th {
+  font-family: "Playball", serif !important;
+}
+audio#FirstDayAu {
+  display: none;
+}
+.hlg {
+  background-color: #417090;
+}
+a:hover.btn.btn-sm.hlg {
+  color: #e69b95;
+}
+.btn {
+  border-radius: 5px;
+  font-family: Serif, "Open Sans", Myriad, Calibri, sans-serif;
+  font-weight: bold;
+  color: #ece4d8;
+  font-style: italic;
+  padding: 4px;
+  margin: 4px;
+}
+.btn-sm {
+  font-size: 0.8em;
+}
+
+.header-t2u {
+  font-size: 1.55em;
+  font-family: "dancing script", serif;
+  color: #7c334f;
+  text-align: center;
+  font-style: italic;
+  line-height: 1.2;
+  padding-bottom: 10px;
+}
+
+.wrapper {
+  z-index: 1111111;
+}
+
+.content {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+}
+
+/**
+* bank custom css
+*/
+.fontSerif {
+  font-weight: 00;
+  margin: 0 0;
+  font-family: "Open Sans", Myriad, Calibri, sans-serif;
+}
+.account-info {
+  cursor: pointer;
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 4px;
+}
+.account-info:hover {
+  color: #e7e0d6;
+  background-color: #7c334f;
+}
+.btn-shadow {
+  background-color: #7b344f !important;
+  border: none;
+  box-shadow: 3px 2px 3px 0px #888888;
+  width: 100% !important;
+}
+.shadow {
+  box-shadow: 3px 2px 3px 0px #888888;
+  border: 1px solid #ccc;
+  outline: none;
+}
+input.shadow:focus,
+textarea.shadow:focus {
+  outline: #7c334f solid 1px;
+}
+button.btn_ecard {
+  cursor: pointer;
+}
+.mt-2 {
+  margin-top: 0.5rem;
+}
+.mt-3 {
+  margin-top: 1rem;
+}
+
+#snowflakeContainer {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.snowflake {
+  padding-left: 15px;
+  font-size: 14px;
+  line-height: 24px;
+  position: fixed;
+  color: #ebebeb;
+  user-select: none;
+  z-index: 1000;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}
+.snowflake:hover {
+  cursor: default;
+}
+.btn-xl {
+  font-size: 24px;
+}

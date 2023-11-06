@@ -1,0 +1,35 @@
+{
+  "name": "t2u-app",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "devwin": "next dev -p 80",
+    "devnac": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start",
+    "test": "next lint",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@types/node": "18.15.0",
+    "@types/react": "18.0.28",
+    "@types/react-dom": "18.0.11",
+    "antd": "^4.20.7",
+    "eslint": "8.35.0",
+    "eslint-config-next": "13.2.4",
+    "mongodb": "^4.6.0",
+    "next": "13.2.4",
+    "react": "18.2.0",
+    "react-confetti": "^6.1.0",
+    "react-dom": "18.2.0",
+    "react-slick": "^0.29.0",
+    "react-use": "^17.4.0",
+    "sharp": "^0.31.3",
+    "slick-carousel": "^1.8.1",
+    "typescript": "4.9.5"
+  },
+  "devDependencies": {
+    "@types/react-slick": "^0.23.10"
+  }
+}
