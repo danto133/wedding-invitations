@@ -1,8 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import Loading from "../components/loading";
-import SlickWish from "../components/slick-wish";
-import { GuestBody } from "@/interfaces/Guest";
+import GuestBody from "@/interfaces/GuestBody";
 
 export default function Invite() {
   const [data, setData] = useState<GuestBody[] | undefined>();
