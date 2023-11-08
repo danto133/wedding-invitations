@@ -9,3 +9,11 @@ export default interface Guest {
   mapUrl: string;
   wedingDate: string;
 }
+
+export interface GuestBody {
+  dateCreate: string;
+  slug: string;
+  name: string;
+  prefix: string;
+  locationId: string;
+}
